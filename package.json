@@ -1,0 +1,26 @@
+{
+  "name": "hikoAPI",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hugodes/hiko.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theoz/hikoServer/issues"
+  },
+  "homepage": "https://github.com/hugodes/hiko",
+  "dependencies": {
+    "express": "^4.10.7",
+    "mongodb": "^1.4.28",
+    "mongoose": "^3.8.21",
+    "socket.io": "~1.2.1"
+  }
+}
